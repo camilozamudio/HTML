@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTAS Y FORMULARIOS t</title>
+</head>
+<body style="background-color:coral;">
+    <header>
+<img src="img/incap.jpeg" alt="incap" width="100" height="100">
+<h1>LISTAS Y FORMULARIOS HTML5 </h1>
+    </header>
+    <!-- seccion lista -->
+<nav> 
+    <ul>
+        <li  type="square" style="color:white;">HOME</li>
+        <li  type="square" style="color:white;">PRODUCTOS</li>
+        <li  type="square" style="color:white;">SERVICIOS </li>
+        <li  type="square" style="color:white;">CONTACTOS</li>
+    </ul>
+</nav>
+<section>
+<form action="datos.php" method="post">
+    <fieldset>
+
+        <!--  Seccion nombre-->
+        <label >Nombre Completo:</label>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre" required=""><br><br>
+         <!--Seccion Email -->
+        <label >Email:</label>
+        <input type="email" name="email" placeholder="Ingrese su email" required=""><br><br>
+        <!-- Seccion Contraseña -->
+        <label >password:</label>
+        <input type="password" name="password" placeholder="Ingrese su contraseña" required=""><br><br>
+<hr>
+<!-- seccion hobbies -->
+<label> Selcciona tus Hobbies</label>
+<br>
+<input type="checkbox">cine <br>
+<input type="checkbox">lectura <br>
+<input type="checkbox">deportes <br>
+<br>
+<hr>
+<!-- seccion estado civil -->
+<label> Seleccion tu estado Civil</label> <br>
+<input name="estadocivil" type="radio" placeholder="casado(a)">casado <br>
+<input name="estadocivil" type="radio" placeholder="soltero(a)">soltero <br>
+<input name="estadocivil" type="radio" placeholder="divorciado(a)">divorciado<br>
+<br>
+<br>
+<hr>
+        <!-- Seccion lista de programas tecnicos-->
+       <label>PROGRAMAS TECNICOS </label>
+      <select   name="select">
+<option> Seleccione un programa ...</option>
+<option> Sistemas ...</option>
+<option> Diseño grafico ...</option>
+<option> Contabilidad ...</option>
+<option> Enfermeria  ...</option>
+      </select> <br><br>
+<!-- seccion comentarios  -->
+<label> Comentarios </label> <br>
+<textarea name="mensaje" rows="5" cols="40" ></textarea>
+    </fieldset>
+<br><br>
+
+<!-- seccion botones de formuñario enviar/cancelar -->
+<button type="submit">Enviar </button>
+<button type="reset">Cancelar </button>
+<br><br> <hr>
+</button>
+</form>
+</section>
+</body>
+</html>
