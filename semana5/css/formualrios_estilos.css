@@ -103,10 +103,9 @@ body{
      font-size:16px;
      text-align: center;
      color:darkblue;}
-
 <style>
- .responsive{
+.responsive{
     max-width: 100%;
-    height:auto;
- }
+    height: auto;
+}
 </style>
