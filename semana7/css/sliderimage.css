@@ -6,14 +6,13 @@ body {
   h1,h3{
     color: white;
   }
-  /* Se establece la propiedad perspective:1000px para colocar perspectiva 3D, 
-  otra propiedad transform-style: preserve-3d  se utiliza para lograr efecto 3d al girar imagen en conjunto con la transformación rotateY  además se asigna   backface-visibility: hidden para que al momento de hacer el giro no se vea completamente. */
+  /* Se establece la propiedad perspective:1000px para colocar perspectiva 3D, otra propiedad transform-style: preserve-3d  se utiliza para lograr efecto 3d al girar imagen en conjunto con la transformación rotateY  además se asigna   backface-visibility: hidden para que al momento de hacer el giro no se vea completamente. */
   
   .flip-container {
     background-color: black;
     width: 100%;
     height: 100%;
-    perspective:1000px;
+    perspective: 1000px;
     margin: auto;
     display: flex;
     justify-content: center;
